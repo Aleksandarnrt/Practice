@@ -1,0 +1,79 @@
+/* line 1, ../sass/base/_reset.sass */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1, ../sass/base/_base.sass */
+body {
+  background: #f4f4f4;
+  color: #666666;
+  font-family: "Georgia", sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+/* line 8, ../sass/base/_base.sass */
+#container {
+  background: white;
+  overflow: auto;
+  border: 1px solid red;
+  border-radius: 5px;
+  width: 960px;
+  margin: 0px auto;
+}
+
+/* line 16, ../sass/base/_base.sass */
+section {
+  background: grey;
+  height: 400px;
+}
+
+/* line 1, ../sass/base/_navigation.sass */
+nav {
+  height: 40px;
+  background: #ff4023;
+}
+/* line 4, ../sass/base/_navigation.sass */
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 7, ../sass/base/_navigation.sass */
+nav ul li {
+  list-style: none;
+}
+/* line 9, ../sass/base/_navigation.sass */
+nav ul li a {
+  text-decoration: none;
+  float: left;
+  display: block;
+  padding: 10px 20px;
+  color: black;
+}
+/* line 15, ../sass/base/_navigation.sass */
+nav ul li a:hover {
+  color: white;
+}
+
+/* line 1, ../sass/layout/_header.sass */
+header {
+  background: #003d99;
+  height: 90px;
+  color: white;
+  text-align: center;
+}
+/* line 6, ../sass/layout/_header.sass */
+header h1 {
+  padding: 20px 0 0 0;
+}
+
+/* line 1, ../sass/layout/_footer.sass */
+footer {
+  background: #003f99;
+  z-index: 1;
+}
+/* line 4, ../sass/layout/_footer.sass */
+footer p {
+  color: red;
+}
